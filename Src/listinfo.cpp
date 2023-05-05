@@ -1,5 +1,5 @@
 #include "listinfo.hpp"
 #include <cstring>
-ListInfo::ListInfo() : infoSize(0), text(nullptr) {
+ListInfo::ListInfo() : infoSize(nullptr), text(nullptr) {
     infoID = new char[4];
 }

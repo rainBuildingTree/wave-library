@@ -4,7 +4,7 @@
 class ListInfo {
 private:
     char* infoID;
-    unsigned int infoSize;
+    unsigned int* infoSize;
     char* text;
 public:
     ListInfo();
