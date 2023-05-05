@@ -3,11 +3,12 @@
 
 class ListInfo {
 private:
-    char infoID[4];
+    char* infoID;
     unsigned int infoSize;
     char* text;
 public:
     ListInfo();
+    ~ListInfo();
 
 };
 
